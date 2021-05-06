@@ -1,0 +1,15 @@
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.csprojAssemblyReference.cache
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\MainWindow.g.cs
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\App.g.cs
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin_MarkupCompile.cache
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin_MarkupCompile.lref
+C:\Users\mattc\source\repos\Jeu_du_devin\bin\Debug\Jeu_du_devin.exe.config
+C:\Users\mattc\source\repos\Jeu_du_devin\bin\Debug\Jeu_du_devin.exe
+C:\Users\mattc\source\repos\Jeu_du_devin\bin\Debug\Jeu_du_devin.pdb
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\MainWindow.baml
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.g.resources
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.Properties.Resources.resources
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.csproj.GenerateResource.cache
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.csproj.CoreCompileInputs.cache
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.exe
+C:\Users\mattc\source\repos\Jeu_du_devin\obj\Debug\Jeu_du_devin.pdb

@@ -1,0 +1,28 @@
+﻿<Window x:Class="Jeu_du_devin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Jeu_du_devin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="ApplicationCommands.Find" Executed="Proposition_Executed" CanExecute="Propostion_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Find" Executed="Nouveau_Executed" CanExecute="Nouveau_CanExecute"/>
+
+    </Window.CommandBindings>
+<Grid Margin="0,0,3.333,-2.333">
+        <Label Content="Nombre Mystère" FontSize="22" FontWeight="Black" HorizontalAlignment="Left" Margin="308,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.053,0.568"/>
+        <Label Content="Nb Essais" HorizontalAlignment="Left" Margin="110,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="Plage" HorizontalAlignment="Left" Margin="110,119,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.376,0.616"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="222,88,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="222,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Messages" HorizontalAlignment="Left" Margin="395,171,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="363,202,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Proposition" HorizontalAlignment="Left" Margin="395,250,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="363,281,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button Name="Proposition" Content="Proposition" HorizontalAlignment="Left" Margin="241,340,0,0" VerticalAlignment="Top" Width="75" Command="ApplicationCommands.Find"/>
+        <Button Name="Nouveau" Content="Nouveau" HorizontalAlignment="Left" Margin="382,340,0,0" VerticalAlignment="Top" Width="75" Command="ApplicationCommands.Find"/>
+
+    </Grid>
+</Window>
